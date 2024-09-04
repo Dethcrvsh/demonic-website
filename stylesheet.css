@@ -1,5 +1,13 @@
 :root {
     --main-bg-color: #0C0C0C;
+    --secondary-bg-color: #1B1B1B;
+}
+
+@font-face {
+    font-family: 'Symbols';
+    src: url('fonts/SymbolsNerdFont-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body, html {
@@ -19,6 +27,7 @@ body, html {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 #logo {
@@ -27,7 +36,45 @@ body, html {
     margin-top: 25px;
 }
 
+#socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+#socials a {
+    font-family: 'Symbols';
+    text-decoration: None;
+    color: white;
+    font-size: 32px;
+}
+
+#content div {
+    padding: 15px;
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#info div {
+    width: 600px;
+    background-color: var(--secondary-bg-color);
+    margin: 20px;
+}
+
 p {
     color: white;
     margin-bottom: 50px;
+    font-family: "Zilla Slab", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
 }
+
+
