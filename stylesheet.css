@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: Symbols;
-    src: url('fonts/SymbolsNerdFont-Regular2.ttf') format('truetype');
+    src: url('fonts/SymbolsNerdFont-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -48,7 +48,7 @@ body, html {
     font-family: 'Symbols';
     text-decoration: None;
     color: white;
-    font-size: 32px;
+    font-size: 40px;
 }
 
 #content div {
@@ -71,10 +71,10 @@ body, html {
 p {
     color: white;
     margin-bottom: 50px;
-    font-family: "Zilla Slab", serif;
-    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 1rem; 
 }
 
 
