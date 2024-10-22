@@ -27,7 +27,6 @@ body, html {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
 }
 
 #logo {
@@ -74,7 +73,34 @@ p {
     font-family: "Oswald", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1rem; 
+    font-size: 2rem; 
+}
+
+.bandPhoto{
+    width: 100%;
 }
 
 
+#header {
+    width: 100%;
+    background-color: var(--secondary-bg-color);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-link {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.contactPhoto{
+    height: 300px;
+}
